@@ -1,0 +1,92 @@
+[
+  {
+    "model": "products.Category",
+    "pk": 1,
+    "fields": {
+      "title": "Electronics",
+      "is_active": true
+    }
+  },
+  {
+    "model": "products.Category",
+    "pk": 2,
+    "fields": {
+      "title": "Books",
+      "is_active": true
+    }
+  },
+  {
+    "model": "products.Category",
+    "pk": 3,
+    "fields": {
+      "title": "Clothes",
+      "is_active": true
+    }
+  },
+  {
+    "model": "products.Product",
+    "pk": 1,
+    "fields": {
+      "title": "Phone",
+      "description": "The Phone is a line of smartphones designed and marketed by Realme Inc.",
+      "price": 17799.99,
+      "is_active": true,
+      "category": 1
+    }
+  },
+  {
+    "model": "products.Product",
+    "pk": 2,
+    "fields": {
+      "title": "Shirt",
+      "description": "A shirt is a cloth garment for the upper part of the body.",
+      "price": 500.5,
+      "is_active": true,
+      "category": 3
+    }
+  },
+  {
+    "model": "products.Product",
+    "pk": 3,
+    "fields": {
+      "title": "7 Habits of Highly Effective People",
+      "description": "The book is a set of printed pages bound together with a cover.",
+      "price": 300.5,
+      "is_active": true,
+      "category": 2
+    }
+  },
+  {
+    "model": "products.Product",
+    "pk": 4,
+    "fields": {
+      "title": "Laptop",
+      "description": "The laptop is a small, portable personal computer.",
+      "price": 58000.0,
+      "is_active": true,
+      "category": 1
+    }
+  },
+  {
+    "model": "products.Product",
+    "pk": 5,
+    "fields": {
+      "title": "T-Shirt",
+      "description": "The t-shirt is a piece of clothing.",
+      "price": 400.0,
+      "is_active": true,
+      "category": 3
+    }
+  },
+  {
+    "model": "products.Product",
+    "pk": 6,
+    "fields": {
+      "title": "Rich Dad Poor Dad",
+      "description": "Finance book",
+      "price": 350.5,
+      "is_active": true,
+      "category": 2
+    }
+  }
+]
